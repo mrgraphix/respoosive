@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+}
+.left, .right{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+}
+.text{
+    width: 40%;
+}
+.text h2{
+    font-size: 1.9vw;
+    border-bottom: 1px solid black;
+    color: brown;
+
+}
+.text h1{
+    font-size: 3.2vw;
+}
+.text h5{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+/* -------------- */
+
+nav{
+    background-color: brown;
+    font-size: 1.2vw;
+}
+nav ul{
+    list-style-type:none;
+    overflow: hidden;
+}
+nav li{
+    float: right;
+}
+nav ul li a{
+    padding: 1vw 2vw;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    background-color: gray;
+}
+
+/* ---------  SECTION 3----------------------- */
+
+.sectt{
+    justify-content: space-evenly;
+    display: flex; 
+    padding: 1vw 1vw;
+}
+.sec-left{
+    width: 49.5%;
+    justify-content: center;
+    align-items: center;
+}
+.sec-right{
+    width: 49%;
+}
+.order1{
+    display: flex;
+}
+.part2{
+    margin-left: 3vw;
+}
+.part2 span{
+    font-size: 2.9vw;
+    font-weight: 900;
+    color: rgb(135, 135, 185)
+}
+.part2 p{
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+.part1 h2{
+    display: flex;
+    background-color: brown;
+    color: white;
+    font-size: 2.5vw;
+    padding: 0.4vw 0.4vw;
+    font-family: sans-serif;
+}
+
+.sec-right {
+    background-image: url(form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size : 100%;
+}
+/* ==== */
+.cls0 p{
+    padding: 0.5vw 2vw  ;
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    font-weight: 500;
+}
+.texts{
+    text-align:center;
+    margin-left: 2vw;
+}
+.texts input{
+    margin-left: 1vw;
+}
+.imges img{
+    margin-left: 4vw;
+    width: 120%;
+    transform: rotate(15deg);
+    margin-top: 1.5vw;
+}
+.inp1{
+    margin-left: 200vw;
+}
+.inp3{
+    margin-left: 0vw
+}
+textarea{
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+/* ===== */
+
+.rotate{
+    display: flex;
+}
+
+.privacy{
+    display: flex;
+    margin-top: 1vw;
+    gap: 1vw;
+}
+.privacy p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gray;
+}
+.privacy button{
+    background-color: brown;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
+    letter-spacing: 0.3vw;
+    padding: 0.8vw;
+    font-weight: 500;
+    
+}
+
+/* -=-=-=-=------------------==============- */
+                
+
+.maiin{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px; 
+   }
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+.col0text button{
+background-color: red;
+border: none;
+width: 120px;
+height: 25px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 90px;
+}
+.col0text h2{
+font-size: 30px;
+}
+.col0text button{
+background-color: rgb(102, 1, 1);
+color: white;
+border: none;
+margin-left: 160px;
+cursor: pointer;
+}
+.col0text{
+display: flex;
+cursor: pointer;
+}
+.col0text p{
+font-size: 18px;
+padding: 8px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.col0text h4{
+font-size: 23px;
+color: brown;
+
+}
+.paste {
+margin-top: 80px;
+margin-left: -50px;
+}
+.paste img{
+width: 90px;
+}
+/* ---------------------- col2---------------------------------------------------------- */
+.col2{
+border-left: 1px black;
+border-right: 10px black;
+}
+
+
+
+.col2text h2{
+margin-bottom: 10PX;
+}
+.col2text p{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.col2text{
+display: flex;
+}
+.col2 button{
+background-color: rgb(102, 1, 1);
+color: white;
+margin-left: 50px;
+border: none;
+height: 30px;
+width: 120px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 20px;
+margin-bottom: 20px;
+cursor: pointer;
+}
+.col2text img{
+margin-top: 10px;
+width: 150PX;
+}
+   /* ---- PART 2------- */
+.col22{
+display: flex;
+}
+.col22 p{
+font-size: 20px;
+}
+.col22 img{
+width: 160px;
+}                             
+/* -----------------col3-------------------------------------------------------------------------- */
+
+.col3 span{
+color: rgb(102, 1, 1);
+}
+.col3 p{
+font-size: 20px;
+margin-top: 8px;
+}
+.col3 img{
+margin-bottom: 10px;
+}
+.col3 button{
+background-color: rgb(102, 1, 1);
+color: white;
+margin-left: 100px;
+border: none;
+height: 30px;
+width: 120px;   
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 15px;
+cursor: pointer; 
+}
